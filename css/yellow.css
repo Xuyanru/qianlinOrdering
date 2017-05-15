@@ -1,0 +1,420 @@
+::-webkit-input-placeholder { /* WebKit browsers */  
+/*    color:#373737; */ 
+}
+.w100{
+	background: #fe7b02;
+	color:#ffffff;
+}
+/*主体内容*/
+/*用户登录*/
+#loading,#wellcome{
+	background:url("../img/01-xin_02.png");
+}
+#wellcome .wellcome-inner p{
+	color:#669933;
+}
+#main>p.linetop{
+	background: url("../img/01-xin-s_03-06.png") no-repeat center top;
+}
+#main>p.linebottom{
+	background: url("../img/01-xin-s_117.png") no-repeat center bottom;
+}
+#logIn{
+	background: url("../img/00-xin_02.png") no-repeat;
+	background-size:cover ;	
+}
+#main .login{
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+#username,#userpass{
+	font-size: 18px;
+}
+#username{
+	background: url("../img/00-xin-s_03.png");
+}
+#userpass{
+	background: url("../img/00-xin-s_06.png");
+}
+
+#logIn input[required]:focus {
+  border-color: #00bafa;
+}
+#logIn input[required]:focus + label[placeholder]:before {
+  color: #FF824F;
+}
+#logIn input[required] + label[placeholder]:before {
+	color: #898989;
+}
+#main .login form  ul li:last-child span{
+	color: #ff8237;
+}
+#main .login form  ul li:last-child a{
+	background: url("../img/00-xin-s_10.png");
+}
+#main .login form  ul li:last-child a:active{
+	background: url("../img/00-xin-s_10-07.png");
+}
+/*数字输入按钮*/
+#main .enterbtns ul li{
+	background: url("../img/00-xin_09.png");
+	font-size: 32px;
+	color:#FFFFFF;
+}
+#main .enterbtns ul li:active{
+	background: url("../img/00-xin_09-09.png");
+}
+#main .enterbtns ul li.correct span{
+	color: #ff2a00;
+}
+#main .enterbtns ul li.confirm span{
+	color: #7dff43;
+}
+#logIn .unamedialog{
+	background: url("../img/01-xin_02.png");
+}
+#logIn .unamedialog ul.w940 li span{
+	border:1px solid #FF8C40;
+	color:#FF8C75;
+	background: #FFFFFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 5px #FF8C40;
+	-webkit-box-shadow: 0px 0px 5px #FF8C40;
+}
+#logIn .unamedialog ul.w940 li span:active{
+	background: #eeeeee;
+}
+/*菜单选择页面*/
+#order,#myOrder,#orderWay,#payPage{
+	background: url("../img/01-xin_02.png");
+}
+#order .menutop .cdbtn li{
+	background: url("../img/01-xin-s_28.png");
+}
+#order .menutop .cdbtn li.active{
+	background: url("../img/01-xin-s_25.png");
+}
+#order .menu ul li{
+	font-size:22px;	
+}
+#order .menu .search input,#order .menu .search button{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	font-size: 16px;
+}
+#order .menu .search button{
+	border-radius: 0;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	color:#FFFFFF;
+	background: linear-gradient(to bottom,#FCC18E,#FCA555);
+}
+#order .menu .search button:active{
+	background: linear-gradient(to bottom,#FCA555,#F58321);
+}
+#yhdialog{
+	background: rgba(255,255,255,0.5);
+}
+#yhdialog .youhuiinner span{
+	font-size: 25px;
+	border:1px solid #000000;
+}
+/*菜品列表*/
+#dishlist{
+	color:#373945;
+}
+#dishlist>ul li{
+	background: url("../img/01-xin-s_17.png");
+	font-size: 20px;
+}
+#dishlist>ul li dl dt img{
+	box-shadow: 0 5px 10px #ccc;
+	-webkit-box-shadow: 0 5px 10px #ccc;
+	background: #EDEDD3;
+	border-radius: 5px;
+	
+}
+#dishlist>ul li dl dd p:last-child{
+	font-size: 20px;
+	color:#ff0001;
+}
+#dishlist>ul li dl dd p:last-child span{
+	font-size: 24px;
+}
+#dishlist>ul li.active{
+	background: url("../img/01-xin-s_17-12.png");
+}
+#dishlist>ul li.active dl dt img{
+	background: #ffffff;
+}
+#dishlist>ul li.active p.selectIcon{
+	background: url("../img/01-xin-s_31.png");
+	color:#FFFFFF;
+	font-size: 16px;
+}
+/*店铺推荐*/
+#order .dptj{
+	font-size: 16px;
+	border-top:2px solid #ffffff;
+}
+/*店铺推荐图标*/
+#order .dptj ul li{
+	color:#6a6a6a;
+	font-size: 13px;
+}
+#order .dptj ul li dl dd p{
+	color:#FF0000;
+}
+/*购物车*/
+#order .shopping-cart{
+	background: #fe7a04;
+}
+#order .shopping-cart .cart-title{
+	font-size: 20px;
+}
+#order .shopping-cart .cart-list{
+	color:#323232;
+}
+#list-left ul.lists-item li.list-number,#order .shopping-cart .cart-title ul li.list-number{
+	font-size: 18px;
+	color:#323232;
+}
+#list-left ul.lists-item li.price,#order .shopping-cart .cart-title ul li.price{
+	font-size: 16px;
+	color:#ff1800;
+}
+#order .shopping-cart .cart-title ul li.list-number,#order .shopping-cart .cart-title ul li.price{
+	font-size: 20px;
+	color:#ffffff;
+}
+#list-left .lists .bz .bzlidt{
+	font-size: 16px;
+	color:#646464;
+}
+#list-left .lists .bz p span{
+	background: #FC4501;
+	border-radius: 12px;
+	color:#FFFFFF;
+}
+/*备注弹出框*/
+#order .bzdialog{
+	background: rgba(0,0,0,0.8);
+}
+#order  .bzdialoginner{
+	background: url("../img/01-xin_02.png");
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-size: 20px;
+	color:#646464;
+	border:2px solid #FF0000;
+}
+#order  .bzdialoginner .bzbtn li{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#order  .bzdialoginner .bzbtn li:active{
+	background: #CCCCCC;
+}
+#order  .bzdialoginner .bzbtn li.bzconfirm{
+	border:2px solid #4BA339;
+	color:#4BA339;
+}
+#order  .bzdialoginner .bzbtn li.btcancel{
+	border:2px solid #FF8C40;
+	color: #FF8C40;
+}
+/*右侧操作内容*/
+#list-right .czimg{
+	background: url("../img/01-xin-s_82.png") no-repeat center bottom;
+}
+#list-right .czimg p.tangs{
+	background: url("../img/01-xin-s_52-14.png") no-repeat center center;
+}
+#list-right .czimg p.tangs.active{
+	background: url("../img/01-xin-s_52-15.png") no-repeat center center;
+}
+#list-right .czimg p.zhuanhuan{
+	background: url("../img/01-xin-s_68.png") no-repeat center center;
+}
+#list-right .czimg p.waid{
+	background: url("../img/01-xin-s_52-16.png") no-repeat center center;
+}
+#list-right .czimg p.waid.active{
+	background: url("../img/01-xin-s_52.png") no-repeat center center;
+}
+#cart-btn .cart-price a{
+	font-size: 24px;
+	color:#FF1800;
+	background: url("../img/01-xin-s_72-23.png") no-repeat;
+}
+#cart-btn .cart-price a:active{
+	background: url("../img/01-xin-s_72-22.png") no-repeat;
+}
+#cart-btn ul li.qingkong{
+	background: url("../img/01-xin-s_104.png");
+}
+#cart-btn ul li.qingkong:active{
+	background: url("../img/01-xin-s_101.png");
+}
+#cart-btn ul li.fanhui{
+	background: url("../img/01-xin-s_110.png");
+}
+#cart-btn ul li.fanhui:active{
+	background: url("../img/01-xin-s_108.png");
+}
+/*我的订单页面*/
+#myOrder .myOrder-main{
+	background: url("../img/02-xin-s_07.png");
+}
+#myOrder .myOrder-main .myOrder-list{ 
+	background: url("../img/02-xin-s_03.png") no-repeat center top;
+}
+#myOrder .myOrder-main .myOrder-list li{
+	font-size: 20px;
+	color:#3f1a00;
+	background: url("../img/02-xin-s_03.png") no-repeat center bottom;
+}
+#myOrder .myOrder-main .myOrder-list li p.picicon img{
+	border-radius: 5px;
+}
+#myOrder .myOrder-main .myOrder-list li p span.orderPrice{
+	color:#ff0000;	
+}
+#myOrder .order-time{
+	font-size: 18px;
+}
+#myOrder .order-time form input,#myOrder .order-time select{
+	color:#30302f;
+	border:1px solid #FCE118;
+	border-radius: 5px;
+}
+#myOrder .myOrder-main .priceTotle{
+	font-size: 26px;
+	color:#30302F;
+}
+.datainp{
+	 border:1px #ccc solid;
+}
+#myOrder .myOrder-main .priceTotle .totleNumber{
+	font-size: 30px;
+	color:#FF0000;
+}
+#myOrder .confirm-order li.confirm-btn{
+	background: url("../img/02-xin-s_21.png") no-repeat;
+}
+#myOrder .confirm-order li.confirm-btn:active{
+	background: url("../img/02-xin-s_15.png") no-repeat;
+}
+#myOrder .confirm-order li.concel-btn{
+	background: url("../img/02-xin-s_22.png") no-repeat;
+}
+#myOrder .confirm-order li.concel-btn:active{
+	background: url("../img/02-xin-s_17.png") no-repeat;
+}
+/*优惠信息弹出框*/
+#myOrder .favdialog-outer{
+	background: rgba(0,0,0,0.8);
+}
+#myOrder .favdialog-outer .favdialog-inner ul{
+	background: url("../img/03-xin-s_03.png") no-repeat;
+}
+#myOrder .favdialog-outer .favdialog-inner ul li{
+	color:#323232;
+}
+#myOrder .favdialog-outer .favdialog-inner ul li p.lf{
+	font-size: 30px;
+}
+#myOrder .favdialog-outer .favdialog-inner ul li p.rt{
+	font-size: 28px;
+}
+#myOrder .favdialog-outer .favdialog-inner ul li.gxzf p.rt{
+	color:#ff0000;
+}
+#myOrder .favdialog-outer .favdialog-inner>p{
+	background: url("../img/02-xin-s_21.png") no-repeat;
+}
+#myOrder .favdialog-outer .favdialog-inner>p:active{
+	background: url("../img/02-xin-s_15.png") no-repeat;
+}
+/*支付方式页面*/
+#orderWay .payTitle,#payPage .payTitle,#logIn .unamedialog .userTitle{
+	height:55px;
+	line-height: 55px;
+	padding-right:50px;
+	text-align: right;
+	/*font-size: 28px;*/
+}
+#logIn .unamedialog .userTitle{
+	text-align: left;
+	padding-left: 50px;
+}
+#orderWay .payTitle img,#payPage .payTitle img#logIn .unamedialog .userTitle img{
+	margin-right: 20px;
+}
+/*支付方式四个图标*/
+#orderWay .payIcons li.hyk{
+	background: url("../img/05-xin-s_19.png") no-repeat right bottom;
+}
+#orderWay .payIcons li.hyk:active{
+	background: url("../img/05-xin-s_06.png") no-repeat right bottom;
+}
+#orderWay .payIcons li.yhk{
+	background: url("../img/05-xin-s_17.png") no-repeat left bottom;
+}
+#orderWay .payIcons li.yhk:active{
+	background: url("../img/05-xin-s_03.png") no-repeat left bottom;
+}
+#orderWay .payIcons li.wx{
+	background: url("../img/05-xin-s_20.png") no-repeat right top;
+}
+#orderWay .payIcons li.wx:active{
+	background: url("../img/05-xin-s_08.png") no-repeat right top;
+}
+#orderWay .payIcons li.zfb{
+	background: url("../img/05-xin-s_21.png") no-repeat left top;
+}
+#orderWay .payIcons li.zfb:active{
+	background: url("../img/05-xin-s_09.png") no-repeat left top;
+}
+#orderWay .payfooter{
+	background: url("../img/05-xin-s_25.png") no-repeat center bottom;
+	background-size: cover;
+}
+/*返回按钮*/
+.backbtn button{
+	background: url("../img/01-xin-s_110.png");
+}
+.backbtn  button:active{
+	background: url("../img/01-xin-s_108.png");
+}
+/*支付页面*/
+#payPage .payMain .payContent{
+	background: url("../img/06-xin_06.png") no-repeat;
+	background-size:cover ;
+}
+#payPage .payMain .paywarn{
+	font-size: 25px;
+}
+#payPage .payMain .paywarn .paywarnCount{
+	background: url("../img/06-xin_12.png") no-repeat;
+	color: #ffffff;
+}
+#payPage .payMain .paywarn .paywarnCount .payNum{	
+	color:#ff0000;
+	font-size: 28px;
+}
+/*支付页虚拟按钮*/
+#payPage button.zfsb,#payPage button.zfcg,#payPage button.cryhk,#payPage button.zzcl{
+	border-radius: 5px;
+	background: #FFFFFF;
+	font-size: 16px;
+}
+#payPage button.zfsb{
+	border:2px solid #FC4501;
+	color:#FC4501;
+}
+#payPage button.zfcg,#payPage button.cryhk,#payPage button.zzcl{
+	border:2px solid #429D30;
+	color:#429D30;
+}
